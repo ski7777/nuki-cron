@@ -18,7 +18,7 @@ const (
 
 func main() {
 	//config parsing
-	c, err := config.NewConfigFromFile("config.json")
+	c, err := config.NewConfigFromFile("/config/config.json")
 	if err != nil {
 		log.Panicln(err)
 	}
